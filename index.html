@@ -6,17 +6,26 @@
     <title>Maven peeps</title>
 </head>
 <body>
-    <h1>Some Info on me:</h1>
-    <p>
-        <strong>Hi</strong>, I am <em>Jean-Maree</em> and, although I'll 
-        be presenting a bunch of my favouraite games today, my favourite 
-        hobby at the moment is cooking. I'm also an avid squash player - 
-        we have league games on Wednesday nights, so expect me to be
-        down for the count on Thursdays...
-    </p> 
-    
-    <!-- ToDo: Add link to table -->
-    Click <a href="#col_table">here</a> to find out more about my colleagues: 
+
+    <header>
+        <h1>Some Info on me:</h1>
+        <p>
+            <strong>Hi</strong>, I am <em>Jean-Maree</em> and, although I'll 
+            be presenting a bunch of my favouraite games today. First some of my hobbies:
+            <ul>
+                <li>Cooking - I'll try bring a new meal tp class each time.</li>
+            </ul>
+            <ul>
+                <li>I'm also an avid squash player - we have league games on Wednesday nights, so expect me to be down for the count on Thursdays....</li>
+            </ul>
+            <ul>
+                <li>Gaming.</li>
+            </ul>
+        </p>
+        <p>
+            Click <a href="#col_table">here</a> to find out more about my colleagues:
+        </p> 
+    </header>
 
 
     <br><br><br>
@@ -24,7 +33,7 @@
         Game title and image, both which links to the appropiate website
     -->
     <h2>Games:</h2>
-    <ul>
+    <ol>
         <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/" target="_blank"><li>DBD </li></a>
         <a href="https://store.steampowered.com/app/381210/Dead_by_Daylight/" target="_blank"><img src="/images/DBD_image.jpg" alt="Not Found" width="300px"></a>
         <br> <br>
@@ -44,7 +53,7 @@
         <a href="https://store.steampowered.com/app/477160/Human_Fall_Flat/" target="_blank"><li>Human Fall Flat</li></a>
         <a href="https://store.steampowered.com/app/477160/Human_Fall_Flat/" target="_blank"><img src="/images/Human_ff.jpg" alt="Not Found" width="300px"></a>
         <br> <br>
-    </ul>
+    </ol>
 
     <!-- Table with some of the people from the course: 
         Key:
@@ -52,96 +61,100 @@
         th = Column heading
         td = Normal data entry
     -->
-    <h2>A table showing some people's names and their favourite Franimal(tm):</h2>
-    <table id="col_table" style="width:100%" border="1px solid black">
-        <tr>
-            <th>
-                Name
-            </th>
-            <th>
-                Food-animal
-            </th>
-        </tr>
-        <tr>
-            <td>
-                Nate Williams
-            </td>
-            <td>
-                Grape (Ape + Grape)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Jean-Maree van Riet
-            </td>
-            <td>
-                Bananagraffe (Banana + Giraffe)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Zimasa Ngqe-isu
-            </td>
-            <td>
-                My guess: Lamonge (Orange + Lama)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Sharon Litye
-            </td>
-            <td>
-                Grapetiger (Grape + Tiger)
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Paul Seremu
-            </td>
-            <td>
-                Tba
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Prince
-            </td>
-            <td>
-                Tba
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Henry
-            </td>
-            <td>
-                Tba
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Andrew
-            </td>
-            <td>
-                Tba
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Goran Kortjie
-            </td>
-            <td>
-                Tba
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Barns
-            </td>
-            <td>
-                Tba
-            </td>
-        </tr>
-    </table>
+
+    <footer>
+        <h2>A table showing some people's names and their favourite Franimal(tm):</h2>
+        <table id="col_table" style="width:100%" border="1px solid black">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Food-animal
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    Nate Williams
+                </td>
+                <td>
+                    Grape (Ape + Grape)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Jean-Maree van Riet
+                </td>
+                <td>
+                    Bananagraffe (Banana + Giraffe)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zimasa Ngqe-isu
+                </td>
+                <td>
+                    My guess: Lamonge (Orange + Lama)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Sharon Litye
+                </td>
+                <td>
+                    Grapetiger (Grape + Tiger)
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Paul Seremu
+                </td>
+                <td>
+                    Tba
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Prince
+                </td>
+                <td>
+                    Tba
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Henry
+                </td>
+                <td>
+                    Tba
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Andrew
+                </td>
+                <td>
+                    Tba
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Goran Kortjie
+                </td>
+                <td>
+                    Tba
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Barns
+                </td>
+                <td>
+                    Tba
+                </td>
+            </tr>
+        </table>
+
+    </footer>
 </body>
 </html>
